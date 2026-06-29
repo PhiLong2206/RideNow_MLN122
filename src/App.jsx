@@ -3,6 +3,7 @@ import Hero from './components/sections/Hero.jsx';
 import Opening from './components/sections/Opening.jsx';
 import Theory from './components/sections/Theory.jsx';
 import DigitalMonopoly from './components/sections/DigitalMonopoly.jsx';
+import InteractiveCase from './components/sections/InteractiveCase.jsx';
 import RideNowStory from './components/sections/RideNowStory.jsx';
 import RealWorld from './components/sections/RealWorld.jsx';
 import TheoryValue from './components/sections/TheoryValue.jsx';
@@ -19,6 +20,7 @@ export default function App() {
         <Opening />
         <Theory />
         <DigitalMonopoly />
+        <InteractiveCase />
         <RideNowStory />
         <RealWorld />
         <TheoryValue />

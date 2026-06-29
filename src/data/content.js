@@ -2,7 +2,7 @@ import { BarChart3, Bike, Bot, Database, Eye, Globe2, LockKeyhole, Network, Scal
 
 export const navigation = [
   ['opening', 'Mở đầu'], ['theory', 'Lý thuyết'], ['digital-monopoly', 'Độc quyền số'],
-  ['ridenow', 'RideNow'], ['real-world', 'Thực tiễn'], ['solutions', 'Giải pháp'],
+  ['interactive-case', 'Trải nghiệm'], ['ridenow', 'RideNow'], ['real-world', 'Thực tiễn'], ['solutions', 'Giải pháp'],
   ['conclusion', 'Kết luận'], ['sources', 'Nguồn'],
 ];
 
