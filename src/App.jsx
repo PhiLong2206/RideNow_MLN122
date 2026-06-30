@@ -1,5 +1,5 @@
-import Header from './components/layout/Header.jsx';
 import Hero from './components/sections/Hero.jsx';
+import BackToTop from './components/layout/BackToTop.jsx';
 import Opening from './components/sections/Opening.jsx';
 import Theory from './components/sections/Theory.jsx';
 import DigitalMonopoly from './components/sections/DigitalMonopoly.jsx';
@@ -14,7 +14,6 @@ import Sources from './components/sections/Sources.jsx';
 export default function App() {
   return (
     <div className="site-shell">
-      <Header />
       <main>
         <Hero />
         <Opening />
@@ -28,6 +27,7 @@ export default function App() {
         <Conclusion />
         <Sources />
       </main>
+      <BackToTop />
     </div>
   );
 }

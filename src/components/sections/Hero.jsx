@@ -1,10 +1,12 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, BookOpen, Focus, ShieldCheck, Users } from 'lucide-react';
+import Header from '../layout/Header.jsx';
 import NetworkVisual from '../visuals/NetworkVisual.jsx';
 import styles from './Sections.module.css';
 
 export default function Hero() {
   return <section id="hero" className={`${styles.hero} section`}>
+    <Header />
     <div className="section-inner">
       <div className={styles.heroGrid}>
         <motion.div className={styles.heroCopy} initial="hidden" animate="visible" variants={{hidden:{},visible:{transition:{staggerChildren:.14}}}}>

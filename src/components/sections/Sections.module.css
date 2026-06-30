@@ -29,3 +29,7 @@
 .solutionsRows p { margin:0; color:#9dabb6; font-size:1rem; line-height:1.5; }
 @media(max-width:900px) { .solutionsSection { padding-block:96px; } .solutionsRows { grid-template-columns:1fr; } }
 @media(max-width:600px) { .solutionsSection { padding-block:80px; } .headingBlock :global(.heading) br { display:none; } .solutionsRows { margin-top:56px; gap:14px; } .solutionsRows article { min-height:0; padding:26px 22px; grid-template-columns:34px 40px minmax(0,1fr); gap:12px; } .solutionsRows article > svg { width:27px; height:27px; } .solutionsRows h3 { font-size:1.2rem; } }
+
+/* The presentation header is part of the Hero's normal document flow. */
+.hero { padding-top:24px; }
+@media(max-width:1180px) { .hero { padding-top:14px; } }
