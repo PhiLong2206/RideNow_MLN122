@@ -100,7 +100,6 @@ export default function InteractiveCase() {
         </div>
       </motion.div> : <FinalResult onReplay={replay} onContinue={goToRealWorld} />}
     </AnimatePresence>
-    {!complete && <p className={styles.presenterHint}>Gợi ý trình bày: Người thuyết trình có thể hỏi cả lớp chọn A, B hay C rồi bấm đáp án được nhiều người chọn.</p>}
   </div></section>;
 }
 

@@ -16,6 +16,5 @@ export default function DigitalMonopoly(){
       <motion.div className={styles.platformCore} initial={{opacity:0,scale:.7}} whileInView={{opacity:1,scale:1}} viewport={{once:true}} transition={{type:'spring',stiffness:120}}><Orbit/><b>RideNow</b><small>Nền tảng trung tâm</small></motion.div>
       {pillars.map(({icon:Icon,title,text},i)=><motion.article key={title} className={styles.pillar} onMouseEnter={()=>setActive(i)} onMouseLeave={()=>setActive(null)} initial={{opacity:0,x:i%2?-45:45}} whileInView={{opacity:1,x:0}} viewport={{once:true,amount:.3}} transition={{duration:.65,delay:.1*i}}><span>0{i+1}</span><div className={styles.pillarIcon}><Icon/></div><div><h3>{title}</h3><p>{text}</p></div></motion.article>)}
     </div>
-    <span className="presenter">Phần trình bày gợi ý: Duy</span>
   </div></section>
 }
